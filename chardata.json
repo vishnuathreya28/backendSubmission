@@ -1,0 +1,42 @@
+[
+    {
+      "char_name": "John Doe",
+      "char_age": 30,
+      "char_photo": [
+        "https://example.com/john/john1.jpg",
+        "https://example.com/john/john2.jpg",
+        "https://example.com/john/john3.jpg"
+      ],
+      "char_gender": "male",
+      "char_occupation": "Software Engineer",
+      "char_relations": ["6153fabc630f21a036a9f83d", "6153fabc630f21a036a9f83e"],
+      "char_properties": []
+    },
+    {
+      "char_name": "Jane Smith",
+      "char_age": 28,
+      "char_photo": [
+        "https://example.com/jane/jane1.jpg",
+        "https://example.com/jane/jane2.jpg",
+        "https://example.com/jane/jane3.jpg"
+      ],
+      "char_gender": "female",
+      "char_occupation": "Graphic Designer",
+      "char_relations": ["6153fabc630f21a036a9f83f"],
+      "char_properties": []
+    },
+   
+    {
+    "char_name": "Vishnu Athreya",
+    "char_age": 21,
+    "char_photo": [
+      "https://example.com/vishnu/vishnu1.jpg",
+      "https://example.com/vishnu/vishnu2.jpg",
+      "https://example.com/vishnu/vishnu3.jpg"
+    ],
+    "char_gender": "male",
+    "char_occupation": "Designer",
+    "char_relations": ["6153fabc630f21a036a9f83f"],
+    "char_properties": []
+  }
+]

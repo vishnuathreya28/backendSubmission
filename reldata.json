@@ -1,0 +1,18 @@
+[
+    {
+      "relation_name": "Friend",
+      "relation_description": "A person with whom one has a bond of mutual affection.",
+      "relation_id": "6153fabc630f21a036a9f83d"
+    },
+    {
+      "relation_name": "Family",
+      "relation_description": "A group of people related by blood or marriage.",
+      "relation_id": "6153fabc630f21a036a9f83e"
+    },
+    {
+      "relation_name": "Colleague",
+      "relation_description": "A person with whom one works in a profession or business.",
+      "relation_id": "6153fabc630f21a036a9f83f"
+    }
+  ]
+  
