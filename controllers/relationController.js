@@ -1,17 +1,18 @@
-const { Relation } = require('../models/Relation');
+const { Relation } = require('../models/models');
 
 // Controller function to create a new relation
 async function createRelation(req, res) {
   try {
-    const { name, description } = req.body;
+    const { characterId, name, description } = req.body;
 
     // Validate request data
-    if (!name || !description) {
-      return res.status(400).json({ message: 'Both "name" and "description" are required fields.' });
+    if (!characterId || !name || !description) {
+      return res.status(400).json({ message: 'All fields (characterId, name, description) are required.' });
     }
 
     // Create a new Relation document
     const newRelation = new Relation({
+      Character: characterId,
       name,
       description
     });
@@ -26,6 +27,7 @@ async function createRelation(req, res) {
     res.status(500).json({ message: 'An error occurred while creating the relation.' });
   }
 }
+
 
 // Controller function to get all relations
 async function getRelations(req, res) {

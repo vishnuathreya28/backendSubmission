@@ -1,12 +1,11 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
-// const { authenticateToken } = require('./middleware/authentication');
 const relationRoutes = require('./routes/relationRoutes');
 const characterRoutes = require('./routes/characterRoutes');
 
 const app = express();
-const PORT = 3000; // Change this to your desired port number
+const PORT = 3000;
 
 // Connect to MongoDB
 mongoose.connect('mongodb://127.0.0.1/Internship_Backend', {
@@ -14,7 +13,10 @@ mongoose.connect('mongodb://127.0.0.1/Internship_Backend', {
   useUnifiedTopology: true
 })
   .then(() => console.log('Connected to MongoDB'))
-  .catch((error) => console.error('Error connecting to MongoDB:', error));
+  .catch((error) => {
+    console.error('Error connecting to MongoDB:', error);
+    process.exit(1);
+  });
 
 // Middleware to parse incoming requests' body
 app.use(bodyParser.json());

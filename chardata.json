@@ -1,42 +1,127 @@
 [
-    {
-      "char_name": "John Doe",
-      "char_age": 30,
-      "char_photo": [
-        "https://example.com/john/john1.jpg",
-        "https://example.com/john/john2.jpg",
-        "https://example.com/john/john3.jpg"
-      ],
-      "char_gender": "male",
-      "char_occupation": "Software Engineer",
-      "char_relations": ["6153fabc630f21a036a9f83d", "6153fabc630f21a036a9f83e"],
-      "char_properties": []
-    },
-    {
-      "char_name": "Jane Smith",
-      "char_age": 28,
-      "char_photo": [
-        "https://example.com/jane/jane1.jpg",
-        "https://example.com/jane/jane2.jpg",
-        "https://example.com/jane/jane3.jpg"
-      ],
-      "char_gender": "female",
-      "char_occupation": "Graphic Designer",
-      "char_relations": ["6153fabc630f21a036a9f83f"],
-      "char_properties": []
-    },
-   
-    {
-    "char_name": "Vishnu Athreya",
-    "char_age": 21,
-    "char_photo": [
-      "https://example.com/vishnu/vishnu1.jpg",
-      "https://example.com/vishnu/vishnu2.jpg",
-      "https://example.com/vishnu/vishnu3.jpg"
-    ],
+  {
+    "char_name": "Mahendra Bahubali",
+    "char_age": 20,
+    "char_photo": ["1.jpg"],
     "char_gender": "male",
-    "char_occupation": "Designer",
-    "char_relations": ["6153fabc630f21a036a9f83f"],
+    "char_occupation": "ex king",
+    "char_relations": [
+      { "relation_name": "Amarendra Bahubali", "relation_type": "son" },
+      { "relation_name": "Devasena", "relation_type": "wife" },
+      { "relation_name": "Bijjaladeva", "relation_type": "uncle" },
+      { "relation_name": "Kumara Verma", "relation_type": "brother in law" },
+      { "relation_name": "Kattappa", "relation_type": "friend" },
+      { "relation_name": "Sivagami Devi", "relation_type": "mother" },
+      { "relation_name": "Avantika", "relation_type": "nothing" },
+      { "relation_name": "Bhallaladeva", "relation_type": "brother" }
+    ],
     "char_properties": []
+  },
+  {
+    "char_name": "Amarendra Bahubali",
+    "char_age": 40,
+    "char_photo": ["2.jpg"],
+    "char_gender": "male",
+    "char_occupation": "prince",
+    "char_relations": [
+      { "relation_name": "Mahendra Bahubali", "relation_type": "father" },
+      { "relation_name": "Devasena", "relation_type": "mother" },
+      { "relation_name": "Bhallaladeva", "relation_type": "uncle" },
+      { "relation_name": "Bijjaladeva", "relation_type": "grandfather" },
+      { "relation_name": "Sivagami Devi", "relation_type": "grandmother" }
+    ],
+    "char_properties": []
+  },
+  {
+    "char_name": "Devasena",
+    "char_age": 60,
+    "char_photo": ["3.jpg"],
+    "char_gender": "female",
+    "char_occupation": "prisoner",
+    "char_relations": [
+      { "relation_name": "Mahendra Bahubali", "relation_type": "mother" },
+      { "relation_name": "Amarendra Bahubali", "relation_type": "wife" },
+      { "relation_name": "Kattappa", "relation_type": "daughter" },
+      { "relation_name": "Bhallaladeva", "relation_type": "brother in law" },
+      { "relation_name": "Bijjaladeva", "relation_type": "father in law" },
+      { "relation_name": "Sivagami Devi", "relation_type": "mother in law" }
+    ],
+    "char_properties": []
+  },
+  {
+    "char_name": "Bijjaladeva",
+    "char_age": 75,
+    "char_photo": ["4.jpg"],
+    "char_gender": "male",
+    "char_occupation": "ex king",
+    "char_relations": [
+      { "relation_name": "Bhallaladeva", "relation_type": "son" },
+      { "relation_name": "Amarendra Bahubali", "relation_type": "father in law" },
+      { "relation_name": "Devasena", "relation_type": "daughter in law" },
+      { "relation_name": "Mahendra Bahubali", "relation_type": "nephew" },
+      { "relation_name": "Sivagami Devi", "relation_type": "wife" }
+    ],
+    "char_properties": []
+  },
+  {
+    "char_name": "Kumara Varma",
+    "char_age": null,
+    "char_photo": ["5.jpg"],
+    "char_gender": "male",
+    "char_occupation": "ally",
+    "char_relations": [
+      { "relation_name": "Mahendra Bahubali", "relation_type": "cousin" },
+      { "relation_name": "Bhallaladeva", "relation_type": "cousin" }
+    ],
+    "char_properties": []
+  },
+  {
+    "char_name": "Kattappa",
+    "char_age": null,
+    "char_photo": ["6.jpg"],
+    "char_gender": "male",
+    "char_occupation": "royal slave",
+    "char_relations": [
+      { "relation_name": "Amarendra Bahubali", "relation_type": "right-hand man" },
+      { "relation_name": "Mahendra Bahubali", "relation_type": "right-hand man" },
+      { "relation_name": "Devasena", "relation_type": "father" }
+    ],
+    "char_properties": []
+  },
+  {
+    "char_name": "Sivagami Devi",
+    "char_age": null,
+    "char_photo": ["7.jpg"],
+    "char_gender": "female",
+    "char_occupation": "queen mother",
+    "char_relations": [
+      { "relation_name": "Amarendra Bahubali", "relation_type": "foster son" },
+      { "relation_name": "Mahendra Bahubali", "relation_type": "foster son" },
+      { "relation_name": "Bijjaladeva", "relation_type": "wife" }
+    ],
+    "char_properties": []
+  },
+  {
+    "char_name": "Avantika",
+    "char_age": 20,
+    "char_photo": ["8.jpg"],
+    "char_gender": "female",
+    "char_occupation": "warrior",
+    "char_relations": [
+      { "relation_name": "Mahendra Bahubali", "relation_type": "wife" }
+    ],
+    "char_properties": []
+  },
+  {
+    "char_name": "Bhallaladeva",
+    "char_age": 68,
+    "char_photo": ["9.jpg"],
+    "char_gender": "male",
+    "char_occupation": "king",
+    "char_relations": [
+      { "relation_name": "Amarendra Bahubali", "relation_type": "brother" },
+      { "relation_name": "Devasena", "relation_type": "sister in law" },
+      { "relation_name": "Mahendra Bahubali", "relation_type": "cousin" }
+    ]
   }
 ]

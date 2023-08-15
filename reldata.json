@@ -1,18 +1,34 @@
 [
-    {
-      "relation_name": "Friend",
-      "relation_description": "A person with whom one has a bond of mutual affection.",
-      "relation_id": "6153fabc630f21a036a9f83d"
-    },
-    {
-      "relation_name": "Family",
-      "relation_description": "A group of people related by blood or marriage.",
-      "relation_id": "6153fabc630f21a036a9f83e"
-    },
-    {
-      "relation_name": "Colleague",
-      "relation_description": "A person with whom one works in a profession or business.",
-      "relation_id": "6153fabc630f21a036a9f83f"
-    }
-  ]
-  
+  {
+    "relation_name": "Son",
+    "relation_description": "Biological or adoptive child"
+  },
+  {
+    "relation_name": "Wife",
+    "relation_description": "Married partner"
+  },
+  {
+    "relation_name": "Uncle",
+    "relation_description": "Parent's sibling"
+  },
+  {
+    "relation_name": "Brother in Law",
+    "relation_description": "Spouse's brother"
+  },
+  {
+    "relation_name": "Friend",
+    "relation_description": "Close friend or companion"
+  },
+  {
+    "relation_name": "Mother",
+    "relation_description": "Biological or adoptive mother"
+  },
+  {
+    "relation_name": "Nothing",
+    "relation_description": "No specific relation"
+  },
+  {
+    "relation_name": "Brother",
+    "relation_description": "Biological or adoptive brother"
+  }
+]

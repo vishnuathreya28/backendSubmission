@@ -1,0 +1,60 @@
+character has many attributes
+one of that is relation, relation is an array in which each element is also an array
+
+in relations we have relation_name, a brief description of what it entails and an automatically generated _id
+when entering a fresh character for each of it's relation we fill in two details
+the character name and the relation shared along with it
+based on the name of the relation we enter automatically we must map that _id 
+
+
+Mahendra Bahubali (Shivudu):
+
+Son of Amarendra Baahubali and Devasena
+Nephew of Bhallaladeva
+Foster son of Sivagami Devi (raised by her in Kuntala kingdom)
+Husband of Avantika
+Amarendra Bahubali:
+
+Father of Mahendra Baahubali
+Husband of Devasena
+Brother of Bhallaladeva
+Son-in-law of Bijjaladeva and Sivagami Devi
+Devasena:
+
+Mother of Mahendra Baahubali
+Wife of Amarendra Baahubali
+Daughter of Kattappa
+Sister-in-law of Bhallaladeva
+Daughter-in-law of Bijjaladeva and Sivagami Devi
+Bijjaladeva:
+
+Father of Bhallaladeva
+Father-in-law of Amarendra Baahubali and Devasena
+Brother-in-law of Devasena
+Uncle of Mahendra Baahubali
+Husband of Sivagami Devi
+Kumara Varma:
+
+Cousin of Mahendra Baahubali and Bhallaladeva
+A loyal ally and friend of Mahendra Baahubali
+Kattappa:
+
+Royal slave of the Mahishmati Kingdom
+Trusted right-hand man of Amarendra Baahubali and later Mahendra Baahubali
+Father of Devasena
+Extremely loyal to the Baahubali family
+Sivagami Devi:
+
+Queen Mother of Mahishmati Kingdom
+Mother of Bhallaladeva (by marriage) and foster mother of Amarendra Baahubali
+Wife of Bijjaladeva
+Avantika:
+
+Love interest and later wife of Mahendra Baahubali
+A warrior belonging to a group opposing Bhallaladeva's rule
+Bhallaladeva (Bhallala Deva):
+
+Son of Bijjaladeva and Sivagami Devi (by marriage)
+Brother-in-law of Amarendra Baahubali and Devasena
+Cousin of Mahendra Baahubali
+Main antagonist of the series
