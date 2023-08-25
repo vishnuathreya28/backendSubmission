@@ -1,2 +1,2 @@
 # backendSubmission
-Submission for Linkedin Job role for Backend Developer
+Created two collections and tried to build a backend service between both of them, it's still work in progress
